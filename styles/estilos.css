@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.botonPersonalizado {
+  background-color: #a00c56;
+  border-color: #a00c56;
+}
+
+.botonPersonalizado:hover {
+  background-color: white;
+  border-color: #a00c56;
+  color: #a00c56;
+}
+
+.navbar {
+  background-color: #ff0080;
+}
+
+.navbar .nav-item .nav-link {
+  color: white;
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: #a00c56;
+}
+
+.navbar .nav-item .nav-link.active {
+  color: white;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.imagenFondo {
+  background-image: url("../img/home.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.imagenFondo h4 {
+  color: white;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.tarjetitas {
+  padding-block: 50px;
+}
+
+.tarjetitas__card {
+  background-color: #ff0080;
+  color: white;
+}
+
+.formulario {
+  padding-block: 30px;
+}
+
+.footer {
+  background-color: #ff0080;
+  padding-block: 15px;
+}
+
+.footer p {
+  color: white;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .rowTarjetas {
+    gap: 30px;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */

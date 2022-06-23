@@ -1,0 +1,17 @@
+.imagenFondo {
+    background-image: url('../img/home.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h4 {
+        color: white;
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        padding: 10px;
+    }
+}

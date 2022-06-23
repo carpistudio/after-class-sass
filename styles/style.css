@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #ff0080;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #a00c56;
+}
+
+.nav-item .nav-link.active {
+    color: white;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.imagenFondo {
+    background-image: url('../img/home.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenFondo h4 {
+    color: white;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.tarjetitas {
+    padding-block: 50px;
+}
+
+.card {
+    background-color: #ff0080;
+    color: white;
+}
+
+.botonPersonalizado {
+    background-color: #a00c56;
+    border-color: #a00c56;
+}
+
+.botonPersonalizado:hover {
+    background-color: white;
+    border-color: #a00c56;
+    color: #a00c56;
+}
+
+.footer {
+    background-color: #ff0080;
+    color: white;
+    padding-block: 15px;
+}
+
+.formulario {
+    padding-block: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .rowTarjetas {
+        gap: 30px;
+    }
+}

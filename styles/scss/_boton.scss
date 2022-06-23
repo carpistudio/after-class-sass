@@ -1,0 +1,10 @@
+.botonPersonalizado {
+    background-color: $rositaOscuro;
+    border-color: $rositaOscuro;
+
+    &:hover {
+        background-color: white;
+        border-color: $rositaOscuro;
+        color: $rositaOscuro;
+    }
+}

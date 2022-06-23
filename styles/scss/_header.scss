@@ -1,0 +1,20 @@
+.navbar {
+    background-color: $rosita;
+
+    .nav-item {
+
+        .nav-link {
+            color: white;
+
+            &:hover {
+                color: $rositaOscuro;
+            }
+
+            &.active {
+                color: white;
+                font-weight: 600;
+                text-decoration: underline;
+            }
+        }
+    }
+}
